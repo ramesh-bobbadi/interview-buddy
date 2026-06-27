@@ -211,7 +211,7 @@ export function InterviewFooter({
               className="space-y-3"
             >
               {userAnswers.length === 0 ? (
-                <p className="text-xs text-muted-foreground">No answers recorded yet...</p>
+                <p className="text-xs text-muted-foreground">No answers recorded yet.</p>
               ) : (
                 userAnswers.map((ans, i) => (
                   <div key={i} className="rounded-lg border border-border bg-secondary/50 p-3 space-y-2">
