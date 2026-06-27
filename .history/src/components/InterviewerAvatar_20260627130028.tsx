@@ -72,7 +72,7 @@ export function InterviewerAvatar({ isSpeaking, isListening }: InterviewerAvatar
         )}
         {!isSpeaking && !isListening && (
           <span className="text-xs font-display text-muted-foreground uppercase tracking-wider">
-            Are You Ready
+            Ready
           </span>
         )}
       </motion.div>
