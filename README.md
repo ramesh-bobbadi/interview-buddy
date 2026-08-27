@@ -1,58 +1,48 @@
-OfflineIQ — Offline Interview Preparation Platform
-OfflineIQ is a front-end web application designed to help job seekers practice technical, HR, and behavioral interview questions entirely offline after the initial page load. Powered by React.js and browser-native APIs, it features automated speech recognition, instant keyword-based answer scoring, and flexible navigation to recreate realistic interview scenarios without requiring constant internet connectivity.
+# 🎯 OfflineIQ — Offline Interview Preparation Platform
 
-Features
-Offline-First Functionality: Complete full interview rounds offline using local asset loading and browser storage once the application is loaded.
+**OfflineIQ** is a front-end web application designed to help job seekers practice technical, HR, and behavioral interview questions entirely offline after the initial page load. Powered by React.js and browser-native APIs, it features automated speech recognition, instant keyword-based answer scoring, and flexible navigation to recreate realistic interview scenarios without requiring constant internet connectivity.
 
-Question Management & Persistence:
+---
 
-Select between Sequential or Randomized question modes.
+## ✨ Features
 
-Persist interview progress, custom questions, and session data using browser Local Storage.
+* **Offline-First Functionality:** Complete full interview rounds offline using local asset loading and browser storage once the application is loaded.
+* **Question Management & Persistence:**
+  * Select between **Sequential** or **Randomized** question modes.
+  * Persist interview progress, custom questions, and session data using browser **Local Storage**.
+* **Speech-to-Text & Automated Answer Evaluation:**
+  * Record spoken answers using voice input converted to text via web speech recognition.
+  * Compare transcribed text against expected answers using smart keyword matching.
+  * View immediate performance feedback with visual score indicators.
+* **Timed Sessions & Flexible Navigation:**
+  * Set optional time limits per question with automatic progression upon expiration.
+  * Revisit, skip, or review prior questions using manual **Next** / **Previous** controls.
 
-Speech-to-Text & Automated Answer Evaluation:
+---
 
-Record spoken answers using voice input converted to text via web speech recognition.
+## 🛠️ Tech Stack
 
-Compare transcribed text against expected answers using smart keyword matching.
+| Category | Technology |
+| :--- | :--- |
+| **Frontend Library** | React.js |
+| **State Management** | React Context API |
+| **Data Persistence** | Browser Local Storage API |
+| **Voice Recognition** | Web Speech API (`SpeechRecognition` / `SpeechSynthesis`) |
+| **Styling** | CSS3 / Modern Flexbox & Grid |
 
-View immediate performance feedback with visual score indicators.
+---
 
-Timed Sessions & Flexible Navigation:
+## 🚀 Getting Started
 
-Set optional time limits per question with automatic progression upon expiration.
+### Prerequisites
 
-Revisit, skip, or review prior questions using manual Next/Previous controls.
+Ensure you have the following installed on your local machine:
+* **Node.js**: `v14.0` or higher
+* **Package Manager**: `npm` or `yarn`
 
-Tech Stack
-Frontend Library: React.js
+### Installation
 
-State Management: React Context API
-
-Data Persistence: Browser Local Storage API
-
-Voice Recognition: Web Speech API (SpeechRecognition / SpeechSynthesis)
-
-Styling: CSS3 / Modern Flexbox & Grid
-
-Getting Started
-Prerequisites
-Node.js (v14.0 or higher)
-
-npm or yarn package manager
-
-Installation
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/offline-iq.git
-cd offline-iq
-Install dependencies:
-
-Bash
-npm install
-Start the local development server:
-
-Bash
-npm start
-Open http://localhost:3000 in your browser
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ramesh-bobbadi/interview-buddy.git](https://github.com/ramesh-bobbadi/interview-buddy.git)
+   cd interview-buddy
